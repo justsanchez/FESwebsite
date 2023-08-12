@@ -384,6 +384,15 @@ header {
     grid-template-columns: 1fr auto minmax(800px, 3fr) 1fr;
 }
 
+/*----make columns for join us and about us ------*/
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
 /*Notes
 
 minmax(999px, 9fr): The minmax() function specifies a range
